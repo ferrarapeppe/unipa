@@ -658,14 +658,14 @@ footer { background: #08111d; color: rgba(244,236,223,.6); padding: 48px 0 40px;
 .ph figcaption span { font-size: 13px; opacity: .82; }
 .ph-teatini { grid-column: span 7; grid-row: span 3; }
 .ph-steri { grid-column: span 5; grid-row: span 3; }
-.ph-inaugurazione { grid-column: span 5; grid-row: span 2; }
+.ph-soffitto { grid-column: span 5; grid-row: span 2; }
 .ph-orto { grid-column: span 7; grid-row: span 2; }
 .ph-edificio19 { grid-column: span 4; grid-row: span 2; }
 .ph-motori { grid-column: span 4; grid-row: span 2; }
 .ph-campus { grid-column: span 4; grid-row: span 2; }
 .ph-cortile { grid-column: span 12; grid-row: span 2; }
 .ph-cortile img { object-position: center 60%; }
-.ph-inaugurazione img { object-position: center 30%; }
+
 
 /* Heritage con foto */
 .heritage { position: relative; isolation: isolate; }
@@ -684,11 +684,11 @@ footer { background: #08111d; color: rgba(244,236,223,.6); padding: 48px 0 40px;
 @media (max-width: 900px) {
   .ph-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 170px; gap: 10px; }
   .ph-grid .ph { grid-column: span 1; grid-row: span 1; }
-  .ph-grid .ph-teatini, .ph-grid .ph-inaugurazione { grid-column: span 2; grid-row: span 2; }
+  .ph-grid .ph-teatini, .ph-grid .ph-soffitto { grid-column: span 2; grid-row: span 2; }
   .ph-grid .ph-campus, .ph-grid .ph-cortile { grid-column: span 2; }
   .ph figcaption { left: 14px; right: 14px; bottom: 12px; }
   .ph figcaption span { display: none; }
-  .ph-teatini figcaption span, .ph-inaugurazione figcaption span { display: block; }
+  .ph-teatini figcaption span, .ph-soffitto figcaption span { display: block; }
 }
 @media (max-width: 480px) {
   .ph-grid { grid-auto-rows: 140px; }
