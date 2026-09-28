@@ -4,15 +4,15 @@ window.AREAS = [
   { icon: "i-bio", t: "Biodiversità ed ecosistemi", d: "Monitoraggio e conservazione, biologia ed ecologia marina, restauro degli ecosistemi, tassonomia e filogenesi, GIS, microbiologia e biotecnologie ambientali." },
   { icon: "i-clima", t: "Clima e resilienza", d: "Impatti climatici su mare, coste e acque interne, erosione costiera, processi idrologici, rischi naturali e soluzioni basate sulla natura." },
   { icon: "i-circ", t: "Economia circolare", d: "Trattamento di rifiuti e acque reflue, bonifica di suoli e sedimenti, recupero di materie prime seconde, chimica verde e Life Cycle Assessment." },
-  { icon: "i-dna", t: "Salute e medicina di precisione", d: "Biologia molecolare, genetica ed epigenetica, microbioma, scienze omiche, medicina rigenerativa, neuroscienze, oncologia, biopsia liquida." },
+  { icon: "i-dna", t: "Salute e medicina di precisione", d: "Biologia molecolare e cellulare, genetica ed epigenetica, microbioma, scienze omiche, bioinformatica, medicina rigenerativa, biomateriali e ingegneria tissutale, neuroscienze, oncologia, diagnostica innovativa, biopsia liquida, studi preclinici e clinici." },
   { icon: "i-onehealth", t: "One Health e invecchiamento sano", d: "Salute umana, animale e ambientale, prevenzione, nutrizione e stili di vita mediterranei, malattie infettive e neurodegenerative." },
   { icon: "i-mat", t: "Materiali e nanotecnologie", d: "Molecole e materiali innovativi per farmaci, energia, ambiente, biomedicina e beni culturali: nanomateriali, catalizzatori, drug delivery." },
   { icon: "i-energy", t: "Transizione energetica", d: "Rinnovabili, smart grid e comunità energetiche, mobilità sostenibile, accumulo, idrogeno, gradiente salino, fotovoltaico avanzato, fusione e fissione." },
-  { icon: "i-ai", t: "Digitale e intelligenza artificiale", d: "Machine learning, computer vision, NLP, modelli generativi, big data, federated learning, robotica, cybersecurity, IoT, digital twin, e‑health." },
+  { icon: "i-ai", t: "Digitale e intelligenza artificiale", d: "Machine learning, computer vision, NLP, modelli generativi, big data, federated learning, robotica, cybersecurity, blockchain, IoT, cloud ed edge computing, digital twin, e‑health, interazione uomo‑macchina." },
   { icon: "i-infra", t: "Infrastrutture e mobilità", d: "Monitoraggio strutturale, resilienza sismica, materiali da costruzione innovativi, trasporti sostenibili, veicoli autonomi, infrastrutture critiche." },
-  { icon: "i-space", t: "Matematica, fisica e spazio", d: "Modellistica matematica, analisi numerica, statistica, sistemi complessi, scienze e tecnologie quantistiche, fotonica, astrofisica, space weather." },
-  { icon: "i-soc", t: "Società, economia e governance", d: "Sviluppo sostenibile, resilienza economica e finanziaria, politiche pubbliche, inclusione, migrazioni, disuguaglianze, studi di genere." },
-  { icon: "i-heritage", t: "Patrimonio e scienze umane", d: "Archeologia, digitalizzazione del patrimonio, archeologia virtuale, digital humanities, lingue, memoria e storia del Mediterraneo." }
+  { icon: "i-space", t: "Matematica, fisica e spazio", d: "Modellistica matematica, analisi numerica, statistica, sistemi complessi, scienze e tecnologie quantistiche, fotonica, biofisica, fisica dei materiali, astrofisica, space weather, strumentazione avanzata." },
+  { icon: "i-soc", t: "Società, economia e governance", d: "Sviluppo sostenibile, resilienza economica e finanziaria, competitività territoriale, economia del clima, politiche pubbliche e governance, inclusione, migrazioni, disuguaglianze, studi di genere, cooperazione euro‑mediterranea." },
+  { icon: "i-heritage", t: "Patrimonio e scienze umane", d: "Archeologia, digitalizzazione del patrimonio, archeologia virtuale, digital humanities, lingue, studi culturali, comunicazione, memoria e storia del Mediterraneo, dimensione sociale e culturale del cambiamento ambientale." }
 ];
 
 window.DEPTS = [
@@ -22,10 +22,11 @@ window.DEPTS = [
     desc: "Dalla fisiologia alla chimica farmaceutica, dalla biologia marina alle tecnologie ambientali: un dipartimento che progetta molecole, studia processi biologici e valorizza le risorse.",
     kpi: [["2800+", "Pubblicazioni"], ["160+", "Progetti"], ["30+", "Brevetti"], ["3", "Spin‑off"]],
     topics: [
-      ["Molecole, materiali e matrici", "Nuovi farmaci e sistemi di rilascio, catalizzatori, chimica verde, prodotti naturali, chimica supramolecolare, materiali per l’energia e analisi per i beni culturali."],
-      ["Ambiente e valorizzazione", "Monitoraggio di flora e fauna, biodiversità, blue economy, recupero di materie prime e seconde dai rifiuti, LCA."],
-      ["Processi biologici", "Colture cellulari, oncologia, neuroscienze, epigenetica, biomateriali, ingegneria tissutale, omiche, microbioma, bioinformatica, medicina personalizzata."],
-      ["Studi preclinici e clinici", "Saggi biochimici, tossicità, attività antiossidante, studi in vitro, in vivo ed ex vivo, modelli animali e studi sull’uomo."]
+      ["Molecole, materiali e matrici", "Nuovi farmaci e sistemi di rilascio, catalizzatori, sintesi organica, chimica verde, prodotti naturali, chimica supramolecolare, soft matter, materiali per l’energia, metodi computazionali, materiali ibridi, spettroscopia e analisi per i beni culturali."],
+      ["Ambiente e valorizzazione", "Monitoraggio di flora e fauna, tutela del paesaggio, biodiversità, blue economy, valutazione dei rifiuti, metodi di estrazione e purificazione, fortificazione degli alimenti, materie prime e seconde dai rifiuti, Life Cycle Assessment."],
+      ["Processi biologici", "Colture cellulari, oncologia, biotecnologie, neuroscienze, malattie genetiche, epigenetica, biomateriali, ingegneria tissutale, metabolomica e proteomica, biorisanamento, microbiologia ambientale, microbioma, paleoecologia, nutraceutica, bioinformatica, medicina personalizzata."],
+      ["Studi preclinici e clinici", "Saggi biochimici, tossicità, attività antiossidante, studi in vitro, in vivo ed ex vivo, attività mutagena, modelli animali, studi sull’uomo."],
+      ["Discipline", "Fisiologia, zoologia, anatomia, antropologia, biochimica, biologia molecolare e applicata, farmacologia, genetica, microbiologia, chimica analitica, fisica, inorganica, organica, industriale e farmaceutica, tecnologie farmaceutiche, chimica degli alimenti, dell’ambiente e dei beni culturali, paleontologia, patologia, scienze dietetiche, ecologia, biologia della conservazione, filogenesi e sistematica, biologia marina, GIS."]
     ]
   },
   {
@@ -34,10 +35,12 @@ window.DEPTS = [
     desc: "48 docenti e ricercatori con una ricerca multidisciplinare e spesso interdisciplinare in matematica e informatica.",
     kpi: [["48", "Docenti e ricercatori"]],
     topics: [
-      ["Matematica pura", "Algebra, geometria, logica, analisi matematica, identità polinomiali, teoria delle categorie."],
-      ["Matematica applicata", "Fisica matematica, analisi numerica, sistemi dinamici, probabilità, fluidodinamica."],
-      ["Informatica", "Algoritmi e strutture dati, AI e machine learning, imaging medico, health informatics, computer vision, soft computing."],
-      ["Storia e didattica", "Storia della matematica, didattica della matematica ed economia politica."]
+      ["Algebra e geometria", "Identità polinomiali, teoria delle categorie e algebra categoriale, teoria di Lie, geometria algebrica, varietà e Grassmanniane."],
+      ["Analisi e fisica matematica", "Analisi funzionale e teoria degli operatori, teoria della misura e integrazione, equazioni alle derivate parziali, sistemi di reazione‑diffusione, fluidodinamica, sistemi dinamici e meccanica celeste, meccanica statistica."],
+      ["Logica e probabilità", "Logica dei condizionali, probabilità coerente, ragionamento in condizioni di incertezza, entropia e regole di scoring."],
+      ["Informatica e intelligenza artificiale", "Problemi combinatori e algoritmici, estrazione di conoscenza dai dati, deep learning, imaging medico, health informatics, computer vision, interazione multisensoriale."],
+      ["Analisi numerica", "Metodi numerici e computazionali, approssimazione e soluzione numerica di equazioni differenziali."],
+      ["Storia, filosofia e didattica", "Storia e filosofia della matematica, didattica della matematica, soft computing e logica fuzzy, economia politica."]
     ],
   },
   {
@@ -45,10 +48,12 @@ window.DEPTS = [
     link: "https://www.unipa.it/dipartimenti/distem/",
     desc: "Ricerca fondamentale e applicata per capire come interagiscono le componenti biotiche e abiotiche del pianeta, con trasferimento tecnologico verso PMI e istituzioni.",
     topics: [
-      ["Ecosistemi marini e terrestri", "Biodiversità e funzionamento degli ecosistemi, pesca e acquacoltura, paleoambienti."],
+      ["Ecosistemi e biodiversità", "Ecosistemi marini e terrestri, biodiversità e funzionamento degli ecosistemi, paleoambienti."],
+      ["Pesca e acquacoltura", "Produttività degli ecosistemi, vulnerabilità ai fattori antropici, pesca e acquacoltura."],
       ["Rischi naturali e clima", "Monitoraggio dei rischi naturali e degli effetti dei cambiamenti climatici."],
       ["Georisorse", "Esplorazione, gestione e conservazione delle risorse geologiche."],
-      ["Dagli organismi alla salute", "Biomarcatori, molecole con potenziale biotecnologico, antibiotico‑resistenza e rigenerazione tissutale, in ottica One Health."]
+      ["Organismi e cambiamento ambientale", "Effetti dei fattori antropici e del cambiamento ambientale sulle risposte biologiche ed ecologiche; biomarcatori e risposte adattative per valutare la qualità degli ecosistemi."],
+      ["Dalla biodiversità alla salute", "Molecole con potenziale biotecnologico per la salute umana, antibiotico‑resistenza, rigenerazione tissutale; dagli organismi agli ecosistemi alla salute umana (priorità OMS)."]
     ]
   },
   {
@@ -56,12 +61,14 @@ window.DEPTS = [
     link: "https://www.unipa.it/dipartimenti/ingegneria/",
     desc: "Sei sezioni di ricerca che coprono l’intero spettro dell’ingegneria: dai materiali all’energia, dall’AI alle infrastrutture.",
     topics: [
-      ["Chimica, materiali e idraulica", "Dispositivi elettrochimici, energia da gradiente salino, metalli dai rifiuti, trattamento acque, erosione costiera, NBS."],
-      ["Strutture e infrastrutture", "Rinforzo sismico con FRP/FRCM, structural health monitoring di ponti ed edifici storici, mobilità sostenibile, terra cruda stampata in 3D."],
-      ["Ingegneria informatica", "AI per la medicina di precisione, computer vision, cybersecurity e blockchain, federated learning, swarm e cognitive robotics."],
-      ["Meccanica, gestione e aerospazio", "Imprenditorialità scientifica, trasformazione digitale, materiali aerospaziali e biomedicali, manifattura digitale."],
-      ["Elettronica, fisica, matematica", "Guida autonoma, droni, e‑health, nanoelettronica, fotovoltaico, reti 6G e THz, tecnologie quantistiche."],
-      ["Energia", "Smart grid, isole minori e comunità energetiche, efficienza, pompe di calore, reattori a fissione e fusione, radioprotezione."]
+      ["Chimica, materiali e idraulica", "Materiali per dispositivi elettrochimici, ingegneria tissutale, protezione dei beni culturali, biopolimeri; energia da gradiente salino, celle a combustibile, metalli dai rifiuti, fluidodinamica computazionale; dispositivi idroelettrici e gestione delle reti idriche."],
+      ["Acqua, clima e ambiente", "Interazione acqua‑sedimenti‑biota negli ecosistemi fluviali, trattamento di acque reflue e fanghi, bonifica di suoli e sedimenti marini; enhanced weathering, erosione costiera, soluzioni basate sulla natura, fabbisogni irrigui, monitoraggio fluviale, effetti combinati alluvioni‑temperatura e temperatura‑incendi boschivi."],
+      ["Strutture e infrastrutture", "Modellazione di materiali, edifici, strutture e terreni; rinforzo sismico con FRP e FRCM; monitoraggio strutturale di edifici, ponti e beni culturali anche dopo terremoti o esplosioni; pianificazione dei trasporti stradali, ferroviari, marittimi e aerei; asfalto con gomma riciclata (Rub‑RAP); terra cruda stampata in 3D."],
+      ["Ingegneria informatica", "IA per computer vision, linguaggio naturale, medicina di precisione, modelli generativi, tracciamento multi‑oggetto, chatbot, diagnosi del tumore al seno ed e‑health; cybersecurity, blockchain, crittoanalisi, voto elettronico; federated learning e crowdsourcing; interazione uomo‑macchina; robotica swarm, quantistica e cognitiva."],
+      ["Meccanica, gestionale e aerospaziale", "Imprenditorialità scientifica, gestione dell’innovazione e trasformazione digitale, transizione ecologica, materiali per aerospazio, meccanica e biomedicina, sistemi di produzione cyber‑fisici, manifattura digitale."],
+      ["Elettronica, fisica e matematica", "Mobilità intelligente e veicoli autonomi terrestri, marini e aerei; sensori per parametri vitali, robotica riabilitativa, imaging ottico cerebrale; nanoelettronica, memorie resistive, fotovoltaico; reti del futuro: IoT, LoRa, luce visibile, 5G e 6G, superfici intelligenti, onde millimetriche e THz, comunicazioni subacquee, cloud ed edge; tecnologie quantistiche e fusione nucleare; matematica pura e applicata."],
+      ["Energia", "Smart grid e smart building, rinnovabili, mobilità elettrica, transizione energetica delle isole minori, comunità energetiche e microreti; power quality ed efficienza; misure e diagnostica, compatibilità elettromagnetica; poligenerazione, reti di teleriscaldamento e pompe di calore; reattori a fissione e fusione, sicurezza e radioprotezione."],
+      ["Direzioni trasversali", "Fiducia, regolazione, inclusività e sostenibilità: monitoraggio delle infrastrutture critiche e dei consumi energetici, nuove politiche di regolazione, connettere chi non è connesso, istruzione ed e‑health per tutti, uso migliore delle risorse naturali."]
     ]
   },
   {
@@ -69,10 +76,12 @@ window.DEPTS = [
     link: "https://www.unipa.it/dipartimenti/difc/",
     desc: "Ricerca fondamentale e applicata in fisica e chimica, dall’infinitamente piccolo alle stelle.",
     topics: [
-      ["Fisica sperimentale", "Materia condensata, biofisica, fisica nucleare e delle particelle, nanofisica, fisica ultraveloce, fotonica, materiali 2D."],
-      ["Fisica teorica", "Ottica ed elettrodinamica quantistica, termodinamica quantistica, sistemi quantistici aperti, quantum AI, materia oscura e assioni."],
-      ["Astrofisica", "Astronomia X, alte energie, pulsar, resti di supernova, raggi cosmici, esopianeti, fisica solare, space weather, missioni spaziali."],
-      ["Fisica applicata e chimica", "Fisica medica, rivelatori di radiazione, econofisica, reti complesse; chimica dei materiali, quantistica, computazionale e per i beni culturali."]
+      ["Fisica sperimentale", "Materia condensata, biofisica, soft matter, fisica nucleare e delle particelle elementari, nanofisica, fisica ultraveloce, scienza dei materiali, fotonica e biofotonica, elettronica, materiali 2D."],
+      ["Fisica teorica", "Ottica ed elettrodinamica quantistica, termodinamica quantistica, sistemi complessi, tecnologie quantistiche, sistemi quantistici aperti, IA quantistica, fisica a molti corpi, campi quantistici in spazio‑tempo curvo, materia oscura e assioni."],
+      ["Astrofisica", "Astronomia X e delle alte energie, binarie X, pulsar, resti di supernova, raggi cosmici, astroparticelle, fisica solare, esopianeti, attività magnetica stellare, formazione stellare, space weather, strumentazione X e missioni spaziali."],
+      ["Fisica applicata", "Fisica computazionale, fisica applicata alla medicina, rivelatori a semiconduttore per radiazioni ionizzanti, analisi di immagini, econofisica, sistemi e reti complesse, sviluppo di biomateriali."],
+      ["Didattica e storia della fisica", "Metodologie di insegnamento e apprendimento, collezioni storiche di strumenti scientifici."],
+      ["Chimica", "Chimica sperimentale dei materiali e dei nanomateriali; chimica teorica e computazionale, catalisi, spettroscopia molecolare; chimica applicata ai beni culturali, chimica bioinorganica."]
     ]
   },
   {
@@ -80,10 +89,12 @@ window.DEPTS = [
     link: "https://www.unipa.it/dipartimenti/bi.n.d./",
     desc: "Ricerca clinica e traslazionale, con progetti attivi in medicina di precisione, diagnostica e prevenzione.",
     topics: [
-      ["HEAL ITALIA", "Alleanza nazionale per terapie innovative, ricerca di laboratorio avanzata e medicina di precisione."],
-      ["Oncologia epatica", "Biopsia liquida ed epatocarcinoma; disuguaglianze di salute e determinanti sociali in Sicilia."],
-      ["Neuro‑cognizione", "Ipoacusia legata all’età e declino cognitivo: dalla diagnosi precoce alla tele‑riabilitazione."],
-      ["Prevenzione e stili di vita", "DARE – prevenzione digitale lungo tutta la vita, INNOVA – diagnostica avanzata, longevità in stile mediterraneo."]
+      ["HEAL ITALIA", "Alleanza nazionale per terapie innovative, ricerca di laboratorio avanzata e approcci integrati di medicina di precisione."],
+      ["Salute riproduttiva", "Potenziale riproduttivo femminile nei mammiferi: recupero della riserva ovarica e generazione di ovociti e cellule della granulosa da cellule staminali mesenchimali."],
+      ["Epatologia e oncologia", "Rete tra medicina generale e centri specialistici per la diagnosi di HBV/HDV; biopsia liquida ed epatocarcinoma; disuguaglianze di salute e determinanti sociali nell’epatocarcinoma in Sicilia."],
+      ["Neuro‑cognizione", "Ipoacusia legata all’età e declino neuro‑cognitivo: dalla diagnosi precoce alla tele‑riabilitazione."],
+      ["Prevenzione e diagnostica", "DARE – prevenzione digitale lungo tutta la vita; INNOVA – diagnostica avanzata."],
+      ["Alimentazione mediterranea", "Longevità in salute con lo stile di vita mediterraneo; soluzioni tecnologiche per migliorare il cibo negli ambienti mediterranei (COMOCONSALUD‑VITORIA)."]
     ]
   },
   {
@@ -91,10 +102,12 @@ window.DEPTS = [
     link: "https://www.unipa.it/dipartimenti/seas/",
     desc: "Modelli quantitativi e analisi dei dati per comprendere economie, territori e società.",
     topics: [
-      ["Sostenibilità finanziaria", "Modelli per Stati, famiglie e imprese sotto shock climatici, pandemici e sociali; crisi e fragilità finanziaria."],
-      ["Reti e territori", "Network analysis di sistemi finanziari, sociali e biologici; economia regionale e competitività."],
-      ["Statistica avanzata", "Processi spazio‑temporali, inferenza sparsa ad alta dimensionalità, statistica bayesiana, modelli grafici."],
-      ["Politiche e istituzioni", "Economia della salute e del clima, invecchiamento, turismo, politica monetaria e spesa pubblica."]
+      ["Sostenibilità e fragilità finanziaria", "Modelli quantitativi per la sostenibilità finanziaria di Stati, famiglie e imprese sotto shock climatici, pandemici e sociali; crisi e fragilità finanziaria."],
+      ["Reti complesse", "Analisi di rete dei sistemi finanziari, sociali e biologici."],
+      ["Territori e imprese", "Analisi di dati economici regionali e spaziali, performance e competitività di territori e imprese, turismo ed economia regionale."],
+      ["Statistica avanzata", "Processi spazio‑temporali complessi, inferenza sparsa in modelli ad alta dimensionalità, statistica bayesiana e modelli grafici, dati di preferenza e ranking di consenso."],
+      ["Percorsi di vita", "Transizione scuola‑università‑lavoro studiata con metodi statistici di life course analysis."],
+      ["Economia, salute e istituzioni", "Invecchiamento della popolazione, economia sanitaria, effetti delle pandemie sulle disuguaglianze, economia del cambiamento climatico, crescita e sviluppo, ruolo delle istituzioni, politica monetaria e spesa pubblica."]
     ]
   },
   {
@@ -102,10 +115,13 @@ window.DEPTS = [
     link: "https://www.unipa.it/dipartimenti/dems/",
     desc: "Il filo comune: le interazioni tra istituzioni – formali e informali – e il loro contesto sociale, nelle aree ERC delle scienze sociali e umane.",
     topics: [
-      ["Mediterraneo ed Europa", "Trasformazioni giuridiche, religiose e culturali; costruzione e crisi dei sistemi politici europei."],
-      ["Diritto e impresa", "Giustizia riparativa e ADR, responsabilità d’impresa, fiscalità internazionale delle multinazionali."],
-      ["Diritti e inclusione", "Migrazioni, multiculturalismo, diritti fondamentali, diversità di genere nelle organizzazioni."],
-      ["Sostenibilità e istituzioni", "Clima, energia, comunità energetiche, smart city, sostenibilità nel settore pubblico e culturale."]
+      ["Mediterraneo ed Europa", "Trasformazioni giuridiche, religiose e culturali nel Mediterraneo moderno e contemporaneo; costruzione, crisi e ridefinizione dei sistemi politici, economici e sociali europei tra XIX e XX secolo."],
+      ["Istituzioni e politica", "Evoluzione dei sistemi e delle istituzioni politiche nazionali e internazionali; potere, partecipazione e interpretazioni critiche contemporanee."],
+      ["Diritto, impresa e pubblica amministrazione", "Giustizia riparativa e ADR, responsabilità penale d’impresa e responsabilità sociale, fiscalità internazionale delle multinazionali; PNRR, lavoro nelle pubbliche amministrazioni e intervento pubblico nell’economia."],
+      ["Diritti e inclusione", "Migrazioni, multiculturalismo, disuguaglianze e marginalità; diritti fondamentali e inclusione nelle decisioni delle corti nazionali e sovranazionali; diversità di genere nelle organizzazioni pubbliche e private."],
+      ["Sostenibilità e istituzioni", "Clima, innovazione, efficienza energetica, comunità energetiche, smart city e performance management; modelli dinamici per la sostenibilità nel settore sanitario e valutazione nel settore culturale."],
+      ["Lingue e traduzione", "Inglese giuridico: analisi dei generi testuali in contesti multilingui europei e internazionali; lingua francese: studi di traduzione, storia e tecniche nelle discipline umanistiche e artistiche."],
+      ["Storia economica", "Pensiero economico americano: economia ed eugenetica, divario di genere tra le due guerre; storia del sistema bancario italiano."]
     ]
   },
   {
@@ -113,21 +129,27 @@ window.DEPTS = [
     link: "https://www.unipa.it/dipartimenti/scienzeumanistiche/",
     desc: "Filosofia, letterature, lingue e arti come strumenti per leggere il presente.",
     topics: [
-      ["Filosofia e teoria critica", "Logica, metafisica, fenomenologia, ontologia, etica pubblica, AI e pensiero ecologico, digital humanities."],
-      ["Musica e cultura visuale", "Tradizioni musicali, etnologia, fotografia, video‑arte, storia dell’arte, teatro e cinema."],
-      ["Lingue e letterature", "Traduzione e transfer culturale, studi di genere, migrazioni, lingue minoritarie, lessico siciliano."],
-      ["Memoria e didattica", "Memoria e guerra in letteratura, eredità dei classici, linguistica, neurodidattica e italiano L2."]
+      ["Filosofia e teoria critica", "Logica e conoscenza, metafisica, fenomenologia, ontologia, linguaggi formali, emozioni e desiderio, potere e linguaggio, teoria critica dei modelli sociali, etica pubblica, teoria del cinema."],
+      ["Tecnica e ambiente", "Intelligenza artificiale, pensiero ecologico, paesaggio sonoro, digital humanities."],
+      ["Musica e cultura visuale", "Tradizioni musicali, etnologia, fotografia, video‑arte, storia dell’arte, teatro, musica e cinema."],
+      ["Confini e spazi nelle lingue e letterature", "Studi di traduzione e transfer culturale, studi di genere e delle donne, multiculturalismo, migrazioni, media studies, lingue minoritarie, geografie letterarie, lessico e cultura dialettale siciliana, scrittori siciliani."],
+      ["Memoria, ideologia e conflitto", "Storia, memoria e guerra nella letteratura, censura, politica e ideologia, lingue e politica, identità e letteratura nazionale, miti nelle letterature contemporanee, criminalità e violenza politica, fonti diplomatiche, commercio nel Mediterraneo."],
+      ["Teoria e critica letteraria", "Analisi del discorso e dei generi, critica genetica, ecocritica, studi classici, letteratura latina, eredità dei classici nella cultura contemporanea."],
+      ["Linguistica", "Linguistica applicata, analisi contrastiva, lessicologia e lessicografia, linguistica cognitiva, pragmatica, retorica, enattivismo, intercomprensione, grammatica italiana, sociolinguistica."],
+      ["Teorie della didattica", "Metodi di insegnamento delle lingue, didattica della letteratura, italiano come lingua seconda e straniera, neurodidattica."]
     ]
   },
   {
     abbr: "CULTURE", name: "Culture e Società",
     link: "https://www.unipa.it/dipartimenti/cultureesocieta/",
-    desc: "Sei sezioni e cinque aree ERC – dalle istituzioni al passato umano – per studiare culture e società.",
+    desc: "Sei sezioni e cinque aree ERC per studiare culture e società: SH2 istituzioni, governance e sistemi giuridici; SH3 mondo sociale e diversità; SH5 culture e produzione culturale; SH6 studio del passato umano; SH7 mobilità umana, ambiente e spazio.",
     topics: [
-      ["Patrimonio culturale", "Simbolismo rituale e cibo tradizionale euro‑mediterraneo, archeologia del paesaggio, archeologia virtuale, digitalizzazione."],
-      ["Comunicazione e semiotica", "AI, digital humanities, memoria culturale, socio‑semiotica di gastronomia, media, design e spazi urbani."],
-      ["Società e politica", "Migrazioni, governance, antropocene, genere, inclusione, relazioni inter‑etniche."],
-      ["Storia e mondo antico", "Crisi globali, storia religiosa, archivi, democrazia deliberativa, testi medici greci, letteratura latina medievale."]
+      ["Patrimonio culturale", "Simbolismo rituale e cibo tradizionale nell’area euro‑mediterranea, storia del pensiero antropologico, approcci antropologici al degrado ambientale e al clima, archeologia del paesaggio, archeologia virtuale, digitalizzazione del patrimonio."],
+      ["Filologia, linguistica e comunicazione", "IA, digital humanities, memoria culturale, albanologia, sociosemiotica di gastronomia, media, design, brand e spazi urbani, realtà virtuale."],
+      ["Scienze umane, sociali e politiche", "Migrazioni, sociologia politica, governance, memoria, antropologia contemporanea, antropocene, genere, inclusione e discriminazione, ruolo delle donne, linguaggio politico, relazioni inter‑etniche, misurazione dell’identità etnica."],
+      ["Studi culturali", "Visual studies, dinamiche culturali dell’antropocene, consapevolezza ecologica e sostenibilità, genere, media studies, svolta digitale."],
+      ["Studi storici", "Crisi globali, storia religiosa, digital humanities, memoria e archivi, consenso e dissenso nell’Europa medievale, metodo della storia globale."],
+      ["Mondo antico", "Linguaggio politico e rappresentazione del potere, testi medici greci antichi, medicina e gastronomia come saperi, democrazia deliberativa, retorica, storia delle emozioni, istituzioni della Grecia antica, letteratura latina medievale e umanistica."]
     ]
   },
   {
@@ -135,10 +157,13 @@ window.DEPTS = [
     link: "https://www.unipa.it/dipartimenti/sc.psicol.pedag.edellaformazione/",
     desc: "Lo studio del comportamento umano in relazione continua con i contesti ecologici e biologici in cui si svolge.",
     topics: [
-      ["Salute e benessere", "Prevenzione lungo l’arco di vita, psicologia clinica, benessere organizzativo e stress lavoro‑correlato."],
-      ["Neuroscienze e sviluppo", "Neuromodulazione non invasiva nelle malattie neurodegenerative, disturbi del neurosviluppo, psicometria."],
-      ["Educazione", "Didattica universitaria, formazione degli insegnanti, tecnologie educative, qualità dei servizi educativi."],
-      ["Movimento e società", "Attività fisica adattata per tutte le età, migrazioni, vulnerabilità di rifugiati e richiedenti asilo."]
+      ["Salute e benessere", "Prevenzione e promozione della salute lungo l’arco di vita, psicologia clinica, benessere organizzativo e stress lavoro‑correlato."],
+      ["Persone, tecnologie e cittadinanza", "Competenze sociali e cittadinanza attiva, user experience e fattori umani, cyberpsicologia."],
+      ["Neuroscienze e riabilitazione", "Protocolli di riabilitazione nelle malattie neurodegenerative con tecniche di neuromodulazione cerebrale non invasiva."],
+      ["Sviluppo e misurazione", "Traiettorie di sviluppo tipiche e atipiche, disturbi del neurosviluppo, psicologia pediatrica, validazione psicometrica di scale psicologiche e neuropsicologiche."],
+      ["Educazione e formazione", "Didattica scolastica e universitaria, formazione degli insegnanti, tecnologie educative, pedagogia della famiglia, qualità dei servizi educativi."],
+      ["Movimento e sport", "Tecniche e metodi di attività motoria per tutte le età, programmi di attività fisica adattata."],
+      ["Società e cultura", "Migrazioni e mobilità umana, vulnerabilità di rifugiati e richiedenti asilo, statistica del turismo, valutazione dei servizi sociali e sanitari, rapporto tra filosofia e psicologia, transizione alla modernità nella musica di area tedesca."]
     ]
   },
   {
