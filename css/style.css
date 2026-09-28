@@ -380,10 +380,10 @@ h3 { font-family: var(--f-display); font-weight: 500; letter-spacing: -.015em; l
 .depts-head p { margin: 0; max-width: 420px; color: rgba(244,236,223,.66); font-size: 15px; }
 
 .explorer { display: grid; grid-template-columns: 340px 1fr; gap: 24px; align-items: start; }
-.dept-tabs { display: flex; flex-direction: column; gap: 4px; position: sticky; top: 96px; }
+.dept-tabs { display: flex; flex-direction: column; gap: 2px; position: sticky; top: 96px; max-height: calc(100vh - 120px); overflow-y: auto; scrollbar-width: thin; scrollbar-color: rgba(244,236,223,.25) transparent; padding-right: 4px; }
 .dept-tab {
   all: unset; cursor: pointer; display: grid; grid-template-columns: 1fr; gap: 2px;
-  padding: 14px 16px; border-radius: 12px; font-size: 15px; font-weight: 500; line-height: 1.3;
+  padding: 10px 14px; border-radius: 12px; font-size: 14.5px; font-weight: 500; line-height: 1.3;
   color: rgba(244,236,223,.7); transition: background .25s, color .25s;
 }
 .dept-tab .abbr { font-family: var(--f-mono); font-size: 11px; letter-spacing: .05em; opacity: .7; }
@@ -537,7 +537,7 @@ footer { background: #08111d; color: rgba(244,236,223,.6); padding: 48px 0 40px;
   .clusters { grid-template-columns: repeat(2, 1fr); }
   .explorer { grid-template-columns: 1fr; }
   .num-grid { grid-template-columns: 1fr; max-width: 640px; margin-inline: auto; }
-  .dept-tabs { position: static; flex-direction: row; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; scrollbar-width: thin; -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); mask-image: linear-gradient(90deg, #000 85%, transparent); }
+  .dept-tabs { position: static; flex-direction: row; max-height: none; overflow-y: hidden; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; scrollbar-width: thin; -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); mask-image: linear-gradient(90deg, #000 85%, transparent); }
   .dept-tab { flex: none; scroll-snap-align: start; grid-template-columns: auto; white-space: nowrap; }
   .dept-tab .full { display: none; }
   .dept-tab .abbr { font-size: 13px; opacity: 1; }

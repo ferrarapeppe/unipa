@@ -18,6 +18,7 @@ window.AREAS = [
 window.DEPTS = [
   {
     abbr: "STEBICEF", name: "Scienze e Tecnologie Biologiche, Chimiche e Farmaceutiche",
+    link: "https://www.unipa.it/dipartimenti/stebicef/",
     desc: "Dalla fisiologia alla chimica farmaceutica, dalla biologia marina alle tecnologie ambientali: un dipartimento che progetta molecole, studia processi biologici e valorizza le risorse.",
     kpi: [["2800+", "Pubblicazioni"], ["160+", "Progetti"], ["30+", "Brevetti"], ["3", "Spin‑off"]],
     topics: [
@@ -29,6 +30,7 @@ window.DEPTS = [
   },
   {
     abbr: "DMI", name: "Matematica e Informatica",
+    link: "https://www.unipa.it/dipartimenti/matematicaeinformatica/",
     desc: "48 docenti e ricercatori con una ricerca multidisciplinare e spesso interdisciplinare in matematica e informatica.",
     kpi: [["48", "Docenti e ricercatori"]],
     topics: [
@@ -37,10 +39,10 @@ window.DEPTS = [
       ["Informatica", "Algoritmi e strutture dati, AI e machine learning, imaging medico, health informatics, computer vision, soft computing."],
       ["Storia e didattica", "Storia della matematica, didattica della matematica ed economia politica."]
     ],
-    link: "https://www.unipa.it/dipartimenti/matematicaeinformatica/ricerca/aree.html"
   },
   {
     abbr: "DiSTeM", name: "Scienze della Terra e del Mare",
+    link: "https://www.unipa.it/dipartimenti/distem/",
     desc: "Ricerca fondamentale e applicata per capire come interagiscono le componenti biotiche e abiotiche del pianeta, con trasferimento tecnologico verso PMI e istituzioni.",
     topics: [
       ["Ecosistemi marini e terrestri", "Biodiversità e funzionamento degli ecosistemi, pesca e acquacoltura, paleoambienti."],
@@ -51,6 +53,7 @@ window.DEPTS = [
   },
   {
     abbr: "DI", name: "Ingegneria",
+    link: "https://www.unipa.it/dipartimenti/ingegneria/",
     desc: "Sei sezioni di ricerca che coprono l’intero spettro dell’ingegneria: dai materiali all’energia, dall’AI alle infrastrutture.",
     topics: [
       ["Chimica, materiali e idraulica", "Dispositivi elettrochimici, energia da gradiente salino, metalli dai rifiuti, trattamento acque, erosione costiera, NBS."],
@@ -63,6 +66,7 @@ window.DEPTS = [
   },
   {
     abbr: "DiFC", name: "Fisica e Chimica “Emilio Segrè”",
+    link: "https://www.unipa.it/dipartimenti/difc/",
     desc: "Ricerca fondamentale e applicata in fisica e chimica, dall’infinitamente piccolo alle stelle.",
     topics: [
       ["Fisica sperimentale", "Materia condensata, biofisica, fisica nucleare e delle particelle, nanofisica, fisica ultraveloce, fotonica, materiali 2D."],
@@ -73,6 +77,7 @@ window.DEPTS = [
   },
   {
     abbr: "Bi.N.D.", name: "Biomedicina, Neuroscienze e Diagnostica avanzata",
+    link: "https://www.unipa.it/dipartimenti/bi.n.d./",
     desc: "Ricerca clinica e traslazionale, con progetti attivi in medicina di precisione, diagnostica e prevenzione.",
     topics: [
       ["HEAL ITALIA", "Alleanza nazionale per terapie innovative, ricerca di laboratorio avanzata e medicina di precisione."],
@@ -83,6 +88,7 @@ window.DEPTS = [
   },
   {
     abbr: "SEAS", name: "Scienze Economiche, Aziendali e Statistiche",
+    link: "https://www.unipa.it/dipartimenti/seas/",
     desc: "Modelli quantitativi e analisi dei dati per comprendere economie, territori e società.",
     topics: [
       ["Sostenibilità finanziaria", "Modelli per Stati, famiglie e imprese sotto shock climatici, pandemici e sociali; crisi e fragilità finanziaria."],
@@ -93,6 +99,7 @@ window.DEPTS = [
   },
   {
     abbr: "DEMS", name: "Scienze Politiche e delle Relazioni Internazionali",
+    link: "https://www.unipa.it/dipartimenti/dems/",
     desc: "Il filo comune: le interazioni tra istituzioni – formali e informali – e il loro contesto sociale, nelle aree ERC delle scienze sociali e umane.",
     topics: [
       ["Mediterraneo ed Europa", "Trasformazioni giuridiche, religiose e culturali; costruzione e crisi dei sistemi politici europei."],
@@ -103,6 +110,7 @@ window.DEPTS = [
   },
   {
     abbr: "SUM", name: "Scienze Umanistiche",
+    link: "https://www.unipa.it/dipartimenti/scienzeumanistiche/",
     desc: "Filosofia, letterature, lingue e arti come strumenti per leggere il presente.",
     topics: [
       ["Filosofia e teoria critica", "Logica, metafisica, fenomenologia, ontologia, etica pubblica, AI e pensiero ecologico, digital humanities."],
@@ -113,6 +121,7 @@ window.DEPTS = [
   },
   {
     abbr: "CULTURE", name: "Culture e Società",
+    link: "https://www.unipa.it/dipartimenti/cultureesocieta/",
     desc: "Sei sezioni e cinque aree ERC – dalle istituzioni al passato umano – per studiare culture e società.",
     topics: [
       ["Patrimonio culturale", "Simbolismo rituale e cibo tradizionale euro‑mediterraneo, archeologia del paesaggio, archeologia virtuale, digitalizzazione."],
@@ -123,12 +132,72 @@ window.DEPTS = [
   },
   {
     abbr: "SPPEFF", name: "Scienze Psicologiche, Pedagogiche, dell’Esercizio Fisico e della Formazione",
+    link: "https://www.unipa.it/dipartimenti/sc.psicol.pedag.edellaformazione/",
     desc: "Lo studio del comportamento umano in relazione continua con i contesti ecologici e biologici in cui si svolge.",
     topics: [
       ["Salute e benessere", "Prevenzione lungo l’arco di vita, psicologia clinica, benessere organizzativo e stress lavoro‑correlato."],
       ["Neuroscienze e sviluppo", "Neuromodulazione non invasiva nelle malattie neurodegenerative, disturbi del neurosviluppo, psicometria."],
       ["Educazione", "Didattica universitaria, formazione degli insegnanti, tecnologie educative, qualità dei servizi educativi."],
       ["Movimento e società", "Attività fisica adattata per tutte le età, migrazioni, vulnerabilità di rifugiati e richiedenti asilo."]
+    ]
+  },
+  {
+    abbr: "DARCH", name: "Architettura",
+    link: "https://www.unipa.it/dipartimenti/architettura/",
+    desc: "Studia l’ambiente fisico e ne progetta le trasformazioni: progettazione architettonica, urbana e del paesaggio, pianificazione territoriale, diagnostica, restauro e conservazione dei beni architettonici.",
+    kpi: [["84", "Docenti e ricercatori"], ["44", "Dottorandi"]],
+    topics: [
+      ["Patrimonio culturale", "Tecnologie e materiali per il restauro, nanotecnologie per i beni culturali, parchi archeologici, rilievo e ricostruzione digitale, turismo culturale."],
+      ["Sviluppo territoriale", "Strategie di sviluppo mediterraneo, valutazioni ambientali e reti ecologiche, rigenerazione urbana, pratiche partecipative."],
+      ["Architettura, città e paesaggio", "Teorie e metodi del progetto, accessibilità, mobilità e spazio pubblico, sistemi paesaggistici, materiali sostenibili."],
+      ["Design e comunicazione visiva", "Trasformazione digitale dello spazio pubblico, allestimenti e installazioni, design sostenibile con materiali riciclati."]
+    ]
+  },
+  {
+    abbr: "DiGi", name: "Giurisprudenza",
+    link: "https://www.unipa.it/dipartimenti/di.gi./",
+    desc: "Dal 1779 nella storica Casa dei Padri Teatini, in via Maqueda. Dipartimento di Eccellenza del Ministero dell’Università e della Ricerca per due cicli consecutivi.",
+    kpi: [["2018–22", "Dipartimento di Eccellenza MUR"], ["2023–27", "Dipartimento di Eccellenza MUR"]],
+    topics: [
+      ["Migrazioni e diritti", "Diritto dell’immigrazione e dell’asilo, protezione internazionale, integrazione; laurea magistrale in inglese “Migration, Rights, Integration”."],
+      ["Diritti umani", "Evoluzione, tutela e limiti dei diritti umani; tutela dei soggetti vulnerabili con la Clinica legale “Migrazioni e Diritti”."],
+      ["Pluralismi giuridici", "Pluralismi giuridici tra prospettive antiche e attuali, studi di genere."],
+      ["Diritto europeo e digitale", "Cattedra Jean Monnet in Comparative and European Digital Law; Centro di Eccellenza Jean Monnet EUMoSIT sui traffici illeciti nel Mediterraneo."]
+    ]
+  },
+  {
+    abbr: "Me.Pre.C.C.", name: "Medicina di Precisione in Area Medica, Chirurgica e Critica",
+    link: "https://www.unipa.it/dipartimenti/me.pre.c.c./",
+    desc: "Ricerca traslazionale in chirurgia generale e specialistica, odontostomatologia, oncologia clinica e sperimentale e medicina rigenerativa, in sinergia con il Policlinico “P. Giaccone”.",
+    kpi: [["3", "Laboratori di ricerca"]],
+    topics: [
+      ["Oncologia di precisione", "Biomarcatori genomici prognostici, scienze omiche, tumori della mammella e del colon‑retto, ruolo del tessuto adiposo nella progressione tumorale."],
+      ["Medicina rigenerativa", "Guarigione dei tessuti, chirurgia plastica e ricostruttiva."],
+      ["IA e sanità digitale", "Supporto diagnostico e decisionale basato sull’IA, telemedicina, reti di laboratorio basate su ICT."],
+      ["Dispositivi ortopedici", "Dispositivi bioattivi per il trattamento delle fratture."]
+    ]
+  },
+  {
+    abbr: "ProMISE", name: "Promozione della Salute, Materno‑Infantile, di Medicina Interna e Specialistica di Eccellenza “G. D’Alessandro”",
+    link: "https://www.unipa.it/dipartimenti/promise/",
+    desc: "Unisce promozione della salute, area materno‑infantile, medicina interna e specialistica in un approccio multidisciplinare di prevenzione, diagnosi e cura.",
+    topics: [
+      ["Igiene e sanità pubblica", "Sorveglianza delle malattie prevenibili con vaccino, registro tumori, epidemiologia dell’antibiotico‑resistenza, sicurezza alimentare."],
+      ["Malattie infettive", "HIV e comorbidità, epatiti croniche, infezioni multiresistenti, tubercolosi, malattie trasmesse da vettori."],
+      ["Salute materno‑infantile", "Diagnosi pre e postnatale delle malformazioni, gravidanze a rischio, patologie neonatali, disturbi del neurosviluppo."],
+      ["Medicina interna e metabolica", "Steatosi epatica, epatocarcinoma, celiachia, obesità e diabete, cardio‑oncologia, scompenso cardiaco."]
+    ]
+  },
+  {
+    abbr: "SAAF", name: "Scienze Agrarie, Alimentari e Forestali",
+    link: "https://www.unipa.it/dipartimenti/saaf/",
+    desc: "Ricerca di base e applicata nei settori agrario, zootecnico, forestale e ambientale, con un approccio che valorizza la biodiversità e i prodotti tipici del territorio.",
+    kpi: [["6", "Laboratori"]],
+    topics: [
+      ["Colture e suolo", "Agronomia, colture erbacee, orticoltura e floricoltura, analisi del suolo, piante officinali."],
+      ["Arboricoltura e foreste", "Selvicoltura, tecnologia del legno, micropropagazione, pomologia, post‑raccolta."],
+      ["Difesa e biosistemi", "Patologia vegetale, entomologia, micologia, idraulica e meccanica agraria, costruzioni rurali."],
+      ["Alimenti e produzioni animali", "Tecnologie alimentari, microbiologia agroalimentare, qualità dei prodotti, zootecnia e nutrizione animale."]
     ]
   }
 ];

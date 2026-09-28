@@ -3,8 +3,8 @@
   const $ = (s, r = document) => r.querySelector(s);
   const EN = document.documentElement.lang === "en";
   const UI = EN
-    ? { dept: "Department", more: "Explore the research areas ↗", skills: "Discover the expertise →", locale: "en-US" }
-    : { dept: "Dipartimento", more: "Approfondisci le aree di ricerca ↗", skills: "Scopri le competenze →", locale: "it-IT" };
+    ? { dept: "Department", more: "Department website ↗", skills: "Discover the expertise →", locale: "en-US" }
+    : { dept: "Dipartimento", more: "Sito del dipartimento ↗", skills: "Scopri le competenze →", locale: "it-IT" };
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
   /* ---------- Aree di ricerca ---------- */
@@ -17,6 +17,7 @@
     </article>`).join("");
 
   /* ---------- Esploratore dipartimenti ---------- */
+  window.DEPTS.sort((a, b) => a.name.localeCompare(b.name, UI.locale));
   const tabs = $("#deptTabs"), panel = $("#deptPanel");
   tabs.innerHTML = window.DEPTS.map((d, i) => `
     <button class="dept-tab" role="tab" id="tab-${i}" aria-controls="deptPanel" aria-selected="${i === 0}" tabindex="${i === 0 ? 0 : -1}">

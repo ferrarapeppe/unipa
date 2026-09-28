@@ -18,6 +18,7 @@ window.AREAS = [
 window.DEPTS = [
   {
     abbr: "STEBICEF", name: "Biological, Chemical and Pharmaceutical Sciences and Technologies",
+    link: "https://www.unipa.it/dipartimenti/stebicef/",
     desc: "From physiology to medicinal chemistry, from marine biology to environmental technologies: a department that designs molecules, studies biological processes and adds value to resources.",
     kpi: [["2800+", "Publications"], ["160+", "Projects"], ["30+", "Patents"], ["3", "Spin‑offs"]],
     topics: [
@@ -29,6 +30,7 @@ window.DEPTS = [
   },
   {
     abbr: "DMI", name: "Mathematics and Computer Science",
+    link: "https://www.unipa.it/dipartimenti/matematicaeinformatica/",
     desc: "48 faculty members carrying out multidisciplinary, and often interdisciplinary, research in mathematics and computer science.",
     kpi: [["48", "Faculty members"]],
     topics: [
@@ -37,10 +39,10 @@ window.DEPTS = [
       ["Computer science", "Algorithms and data structures, AI and machine learning, medical imaging, health informatics, computer vision, soft computing."],
       ["History and education", "History of mathematics, mathematics education and political economy."]
     ],
-    link: "https://www.unipa.it/dipartimenti/matematicaeinformatica/ricerca/aree.html"
   },
   {
     abbr: "DiSTeM", name: "Earth and Marine Sciences",
+    link: "https://www.unipa.it/dipartimenti/distem/",
     desc: "Fundamental and applied research into how the Earth’s biotic and abiotic compartments interact, with technology transfer to SMEs and public institutions.",
     topics: [
       ["Marine and terrestrial ecosystems", "Biodiversity and ecosystem functioning, fisheries and aquaculture, palaeoenvironments."],
@@ -51,6 +53,7 @@ window.DEPTS = [
   },
   {
     abbr: "DI", name: "Engineering",
+    link: "https://www.unipa.it/dipartimenti/ingegneria/",
     desc: "Six research sections covering the full spectrum of engineering: from materials to energy, from AI to infrastructure.",
     topics: [
       ["Chemical, materials and hydraulic engineering", "Electrochemical devices, salinity‑gradient energy, metals from waste, water treatment, coastal erosion, NBS."],
@@ -63,6 +66,7 @@ window.DEPTS = [
   },
   {
     abbr: "DiFC", name: "Physics and Chemistry “Emilio Segrè”",
+    link: "https://www.unipa.it/dipartimenti/difc/",
     desc: "Fundamental and applied research in physics and chemistry, from the infinitely small to the stars.",
     topics: [
       ["Experimental physics", "Condensed matter, biophysics, nuclear and particle physics, nanophysics, ultrafast physics, photonics, 2D materials."],
@@ -73,6 +77,7 @@ window.DEPTS = [
   },
   {
     abbr: "Bi.N.D.", name: "Biomedicine, Neuroscience and Advanced Diagnostics",
+    link: "https://www.unipa.it/dipartimenti/bi.n.d./",
     desc: "Clinical and translational research, with active projects in precision medicine, diagnostics and prevention.",
     topics: [
       ["HEAL ITALIA", "National alliance for innovative therapies, advanced lab research and precision medicine."],
@@ -83,6 +88,7 @@ window.DEPTS = [
   },
   {
     abbr: "SEAS", name: "Economics, Business and Statistics",
+    link: "https://www.unipa.it/dipartimenti/seas/",
     desc: "Quantitative models and data analysis to understand economies, territories and societies.",
     topics: [
       ["Financial sustainability", "Models for sovereigns, households and firms under climate, pandemic and social shocks; financial crises and fragility."],
@@ -93,6 +99,7 @@ window.DEPTS = [
   },
   {
     abbr: "DEMS", name: "Political Sciences and International Relations",
+    link: "https://www.unipa.it/dipartimenti/dems/",
     desc: "The common thread: the interactions between institutions – formal and informal – and their social context, across the ERC Social Sciences and Humanities domains.",
     topics: [
       ["Mediterranean and Europe", "Legal, religious and cultural transformations; the construction and crisis of European political systems."],
@@ -103,6 +110,7 @@ window.DEPTS = [
   },
   {
     abbr: "SUM", name: "Humanities",
+    link: "https://www.unipa.it/dipartimenti/scienzeumanistiche/",
     desc: "Philosophy, literature, languages and the arts as tools for reading the present.",
     topics: [
       ["Philosophy and critical theory", "Logic, metaphysics, phenomenology, ontology, public ethics, AI and ecological thinking, digital humanities."],
@@ -113,6 +121,7 @@ window.DEPTS = [
   },
   {
     abbr: "CULTURE", name: "Cultures and Society",
+    link: "https://www.unipa.it/dipartimenti/cultureesocieta/",
     desc: "Six sections and five ERC areas – from institutions to the human past – to study cultures and societies.",
     topics: [
       ["Cultural heritage", "Ritual symbolism and traditional food in the Euro‑Mediterranean area, landscape archaeology, virtual archaeology, digitisation."],
@@ -123,12 +132,72 @@ window.DEPTS = [
   },
   {
     abbr: "SPPEFF", name: "Psychological, Pedagogical, Exercise and Training Sciences",
+    link: "https://www.unipa.it/dipartimenti/sc.psicol.pedag.edellaformazione/",
     desc: "The study of human behaviour in continuous relationship with the ecological and biological contexts in which it takes place.",
     topics: [
       ["Health and well‑being", "Prevention across the life span, clinical psychology, organisational well‑being and work‑related stress."],
       ["Neuroscience and development", "Non‑invasive neuromodulation in neurodegenerative diseases, neurodevelopmental disorders, psychometrics."],
       ["Education", "University teaching, teacher education, educational technologies, quality of educational services."],
       ["Movement and society", "Adapted physical activity for all ages, migration, vulnerability of refugees and asylum seekers."]
+    ]
+  },
+  {
+    abbr: "DARCH", name: "Architecture",
+    link: "https://www.unipa.it/dipartimenti/architettura/",
+    desc: "Studies the physical environment and designs its transformation: architectural, urban and landscape design, territorial planning, diagnostics, restoration and conservation of architectural heritage.",
+    kpi: [["84", "Faculty members"], ["44", "PhD students"]],
+    topics: [
+      ["Cultural heritage", "Restoration technologies and materials, nanotechnologies for heritage, archaeological parks, survey and digital reconstruction, cultural tourism."],
+      ["Territorial development", "Mediterranean development strategies, environmental assessment and ecological networks, urban regeneration, participatory practices."],
+      ["Architecture, city and landscape", "Design theory and methods, accessibility, mobility and public space, landscape systems, sustainable materials."],
+      ["Design and visual communication", "Digital transformation of public space, exhibitions and installations, sustainable design with recycled materials."]
+    ]
+  },
+  {
+    abbr: "DiGi", name: "Law",
+    link: "https://www.unipa.it/dipartimenti/di.gi./",
+    desc: "Housed since 1779 in the historic Casa dei Padri Teatini on Via Maqueda. Recognised as a Department of Excellence by the Italian Ministry of University and Research for two consecutive cycles.",
+    kpi: [["2018–22", "MUR Department of Excellence"], ["2023–27", "MUR Department of Excellence"]],
+    topics: [
+      ["Migration and rights", "Immigration and asylum law, international protection, integration; master’s degree taught in English “Migration, Rights, Integration”."],
+      ["Human rights", "Evolution, protection and limits of human rights; protection of vulnerable people through the “Migration and Rights” Legal Clinic."],
+      ["Legal pluralism", "Legal pluralism in ancient and contemporary perspectives, gender studies."],
+      ["European and digital law", "Jean Monnet Chair in Comparative and European Digital Law; Jean Monnet Centre of Excellence EUMoSIT on illicit trafficking in the Mediterranean."]
+    ]
+  },
+  {
+    abbr: "Me.Pre.C.C.", name: "Precision Medicine in Medical, Surgical and Critical Care",
+    link: "https://www.unipa.it/dipartimenti/me.pre.c.c./",
+    desc: "Translational research in general and specialist surgery, dentistry, clinical and experimental oncology and regenerative medicine, in synergy with the “P. Giaccone” University Hospital.",
+    kpi: [["3", "Research laboratories"]],
+    topics: [
+      ["Precision oncology", "Prognostic genomic biomarkers, omics sciences, breast and colorectal cancer, the role of adipose tissue in tumour progression."],
+      ["Regenerative medicine", "Tissue healing, plastic and reconstructive surgery."],
+      ["AI and digital health", "AI‑based diagnostic and decision support, telemedicine, ICT‑based laboratory networks."],
+      ["Orthopaedic devices", "Bioactive devices for fracture treatment."]
+    ]
+  },
+  {
+    abbr: "ProMISE", name: "Health Promotion, Mother and Child Care, Internal Medicine and Medical Specialties “G. D’Alessandro”",
+    link: "https://www.unipa.it/dipartimenti/promise/",
+    desc: "Brings together health promotion, mother and child care, internal and specialist medicine in a multidisciplinary approach to prevention, diagnosis and treatment.",
+    topics: [
+      ["Hygiene and public health", "Surveillance of vaccine‑preventable diseases, cancer registry, epidemiology of antimicrobial resistance, food safety."],
+      ["Infectious diseases", "HIV and comorbidities, chronic hepatitis, multidrug‑resistant infections, tuberculosis, vector‑borne diseases."],
+      ["Mother and child health", "Pre‑ and postnatal diagnosis of malformations, high‑risk pregnancies, neonatal diseases, neurodevelopmental disorders."],
+      ["Internal and metabolic medicine", "Fatty liver disease, hepatocellular carcinoma, coeliac disease, obesity and diabetes, cardio‑oncology, heart failure."]
+    ]
+  },
+  {
+    abbr: "SAAF", name: "Agricultural, Food and Forest Sciences",
+    link: "https://www.unipa.it/dipartimenti/saaf/",
+    desc: "Fundamental and applied research in agriculture, animal production, forestry and the environment, with an approach that values biodiversity and the region’s typical products.",
+    kpi: [["6", "Laboratories"]],
+    topics: [
+      ["Crops and soil", "Agronomy, field crops, horticulture and floriculture, soil analysis, medicinal plants."],
+      ["Arboriculture and forests", "Silviculture, wood technology, micropropagation, pomology, post‑harvest."],
+      ["Crop protection and biosystems", "Plant pathology, entomology, mycology, agricultural hydraulics and mechanics, rural buildings."],
+      ["Food and animal production", "Food technologies, agri‑food microbiology, product quality, animal science and nutrition."]
     ]
   }
 ];
