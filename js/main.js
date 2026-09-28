@@ -1,6 +1,10 @@
 (function () {
   "use strict";
   const $ = (s, r = document) => r.querySelector(s);
+  const EN = document.documentElement.lang === "en";
+  const UI = EN
+    ? { dept: "Department", more: "Explore the research areas ↗", skills: "Discover the expertise →", locale: "en-US" }
+    : { dept: "Dipartimento", more: "Approfondisci le aree di ricerca ↗", skills: "Scopri le competenze →", locale: "it-IT" };
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
   /* ---------- Aree di ricerca ---------- */
@@ -29,12 +33,12 @@
     panel.innerHTML = `
       <svg class="glyph" viewBox="-50 -50 100 100" aria-hidden="true"><use href="#star8" x="-50" y="-50" width="100" height="100"/></svg>
       <div class="anim">
-        <span class="tag">Dipartimento · ${esc(d.abbr)}</span>
+        <span class="tag">${UI.dept} · ${esc(d.abbr)}</span>
         <h4>${esc(d.name)}</h4>
         <p class="desc">${esc(d.desc)}</p>
         ${d.kpi ? `<div class="dept-kpi">${d.kpi.map(k => `<div>${esc(k[0])}<small>${esc(k[1])}</small></div>`).join("")}</div>` : ""}
         <div class="topics">${d.topics.map(t => `<div class="topic"><b>${esc(t[0])}</b><span>${esc(t[1])}</span></div>`).join("")}</div>
-        ${d.link ? `<a class="dept-link" href="${d.link}" target="_blank" rel="noopener">Approfondisci le aree di ricerca ↗</a>` : ""}
+        ${d.link ? `<a class="dept-link" href="${d.link}" target="_blank" rel="noopener">${UI.more}</a>` : ""}
       </div>`;
   }
   tabs.addEventListener("click", (e) => {
@@ -61,7 +65,7 @@
       <svg class="emoji" aria-hidden="true"><use href="#${c.e}"/></svg>
       <h4>${esc(c.t)}</h4>
       <ul>${c.short.map(s => `<li>${esc(s)}</li>`).join("")}</ul>
-      <span class="more">Scopri le competenze →</span>
+      <span class="more">${UI.skills}</span>
     </button>`).join("");
   $("#clusters").addEventListener("click", (e) => {
     const b = e.target.closest(".cluster");
@@ -106,11 +110,11 @@
       if (en.isIntersecting) links.forEach(l => l.classList.toggle("active", l.getAttribute("href") === "#" + en.target.id));
     });
   }, { rootMargin: "-45% 0px -50% 0px" });
-  ["chi-siamo", "numeri", "didattica", "ricerca", "terza-missione", "contatti"].forEach(id => spy.observe(document.getElementById(id)));
+  links.map(l => document.getElementById(l.getAttribute("href").slice(1))).filter(Boolean).forEach(el => spy.observe(el));
 
   /* ---------- Reveal + contatori ---------- */
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const fmt = (n, plain) => plain ? String(n) : n.toLocaleString("it-IT");
+  const fmt = (n, plain) => plain ? String(n) : n.toLocaleString(UI.locale);
   function count(el) {
     const end = +el.dataset.count, plain = el.hasAttribute("data-plain");
     if (reduce) { el.textContent = fmt(end, plain); return; }

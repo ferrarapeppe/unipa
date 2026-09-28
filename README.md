@@ -5,7 +5,8 @@ Sito statico (HTML/CSS/JS, nessuna dipendenza da installare), pubblicabile gratu
 
 ## Struttura
 - `index.html` — pagina e testi delle sezioni
-- `js/data.js` — contenuti modificabili: 12 aree di ricerca, dipartimenti, cluster di progetti europei
+- `js/data.js` — contenuti modificabili (IT): 12 aree di ricerca, dipartimenti, cluster, progetti in evidenza
+- `en/index.html` + `js/data.en.js` — versione inglese (le modifiche ai testi vanno fatte in entrambe le lingue)
 - `js/main.js` — interazioni (esploratore dipartimenti, schede, contatori)
 - `css/style.css` — grafica
 - `assets/` — favicon e immagine di anteprima per i social

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>UniPa — This is who we are · Education, Research, Third Mission</title>
+  <meta name="description" content="University of Palermo: at the heart of the Mediterranean since 1806. Education, research and third mission of a large multidisciplinary European university.">
+  <meta name="theme-color" content="#0d1a2b">
+  <meta property="og:title" content="UniPa — This is who we are">
+  <meta property="og:description" content="Education, Research and Third Mission at the University of Palermo. At the heart of the Mediterranean since 1806.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../assets/og-image.png">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@400;700&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="alternate" hreflang="it" href="../">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===== SVG sprite ===== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="star8" viewBox="-50 -50 100 100">
+      <rect x="-35" y="-35" width="70" height="70" fill="none" stroke="currentColor" stroke-width="1"/>
+      <rect x="-35" y="-35" width="70" height="70" fill="none" stroke="currentColor" stroke-width="1" transform="rotate(45)"/>
+      <circle r="22" fill="none" stroke="currentColor" stroke-width="1"/>
+    </symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="ext" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <!-- icone aree di ricerca -->
+    <symbol id="i-bio" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M8 30c0-12 8-20 24-22-2 16-10 24-22 24"/><path d="M8 32 22 18"/></g></symbol>
+    <symbol id="i-clima" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 24c4-4 8-4 12 0s8 4 12 0 6-3 8-1"/><path d="M4 31c4-4 8-4 12 0s8 4 12 0 6-3 8-1"/><circle cx="26" cy="11" r="5"/></g></symbol>
+    <symbol id="i-circ" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M31 15A12 12 0 0 0 10 12"/><path d="M9 25a12 12 0 0 0 21 3"/><path d="M10 6v6h6M30 34v-6h-6"/></g></symbol>
+    <symbol id="i-dna" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 4c0 10 16 10 16 16s-16 6-16 16"/><path d="M28 4c0 10-16 10-16 16s16 6 16 16"/><path d="M15 10h10M15 30h10M17 20h6"/></g></symbol>
+    <symbol id="i-onehealth" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="14" cy="15" r="8"/><circle cx="26" cy="15" r="8"/><circle cx="20" cy="25" r="8"/></g></symbol>
+    <symbol id="i-mat" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 4 34 12v16L20 36 6 28V12z"/><path d="M20 4v32M6 12l28 16M34 12 6 28"/></g></symbol>
+    <symbol id="i-energy" viewBox="0 0 40 40"><path d="M22 3 8 23h11l-2 14 15-21H21z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-ai" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="10" y="10" width="20" height="20" rx="3"/><path d="M15 10V5M20 10V5M25 10V5M15 35v-5M20 35v-5M25 35v-5M10 15H5M10 20H5M10 25H5M35 15h-5M35 20h-5M35 25h-5"/><circle cx="20" cy="20" r="4"/></g></symbol>
+    <symbol id="i-infra" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 28h34M7 28V18M33 28V18"/><path d="M3 18c6 0 10-8 17-8s11 8 17 8"/><path d="M13 28v-9M20 28V10M27 28v-9"/></g></symbol>
+    <symbol id="i-space" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="20" cy="20" r="6"/><ellipse cx="20" cy="20" rx="17" ry="6" transform="rotate(-25 20 20)"/><circle cx="33" cy="8" r="1.5" fill="currentColor"/></g></symbol>
+    <symbol id="i-soc" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="13" cy="13" r="4"/><circle cx="27" cy="13" r="4"/><path d="M5 30c0-5 4-9 8-9s8 4 8 9M19 30c0-5 4-9 8-9s8 4 8 9"/></g></symbol>
+    <symbol id="i-heritage" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 14 20 5l16 9z"/><path d="M8 14v16M15 14v16M25 14v16M32 14v16M4 34h32M6 30h28"/></g></symbol>
+  </defs>
+</svg>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="top">
+  <nav class="wrap nav" aria-label="Main navigation">
+    <a class="brand" href="#top" aria-label="University of Palermo — back to top">
+      <img class="brand-logo" src="../assets/logo-unipa-white.png" alt="Università degli Studi di Palermo" width="219" height="89">
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#numbers">Numbers</a></li>
+      <li><a href="#education"><span class="dot" style="background:var(--ocra)"></span>Education</a></li>
+      <li><a href="#research"><span class="dot" style="background:var(--mare-light)"></span>Research</a></li>
+      <li><a href="#third-mission"><span class="dot" style="background:var(--terra)"></span>Third Mission</a></li>
+      <li><a href="#contact">Partner with us</a></li>
+      <li><a class="lang" href="../" hreflang="it" lang="it" aria-label="Versione italiana">IT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- ===== HERO ===== -->
+<section class="hero" aria-label="Introduction">
+  <div class="hero-pattern" aria-hidden="true">
+    <svg preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <pattern id="tile" width="120" height="120" patternUnits="userSpaceOnUse">
+          <g transform="translate(60 60) scale(.9)" color="rgba(244,236,223,.07)"><use href="#star8" x="-50" y="-50" width="100" height="100"/></g>
+        </pattern>
+        <linearGradient id="fadeMask" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+        <mask id="m"><rect width="100%" height="100%" fill="url(#fadeMask)"/></mask>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#tile)" mask="url(#m)"/>
+    </svg>
+  </div>
+
+  <svg class="hero-star" viewBox="-100 -100 200 200" aria-hidden="true">
+    <defs>
+      <linearGradient id="gOcra" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3c066"/><stop offset="1" stop-color="#c9542f"/></linearGradient>
+    </defs>
+    <g class="spin-rev" fill="none" stroke="rgba(244,236,223,.14)" stroke-width=".35">
+      <circle r="96"/><circle r="88" stroke-dasharray="1 3"/>
+      <g id="petals">
+        <rect x="-62" y="-62" width="124" height="124"/>
+        <rect x="-62" y="-62" width="124" height="124" transform="rotate(22.5)"/>
+        <rect x="-62" y="-62" width="124" height="124" transform="rotate(45)"/>
+        <rect x="-62" y="-62" width="124" height="124" transform="rotate(67.5)"/>
+      </g>
+    </g>
+    <g class="spin">
+      <rect x="-44" y="-44" width="88" height="88" fill="url(#gOcra)" opacity=".92"/>
+      <rect x="-44" y="-44" width="88" height="88" fill="url(#gOcra)" opacity=".92" transform="rotate(45)"/>
+      <g fill="none" stroke="#0d1a2b" stroke-width=".7" opacity=".55">
+        <rect x="-36" y="-36" width="72" height="72"/><rect x="-36" y="-36" width="72" height="72" transform="rotate(45)"/>
+      </g>
+      <circle r="30" fill="#0d1a2b"/>
+      <g fill="none" stroke="#e0a73e" stroke-width=".6">
+        <circle r="24"/>
+        <rect x="-15" y="-15" width="30" height="30"/><rect x="-15" y="-15" width="30" height="30" transform="rotate(45)"/>
+      </g>
+      <circle r="4" fill="#e0a73e"/>
+    </g>
+  </svg>
+
+  <div class="wrap hero-inner">
+    <span class="eyebrow fade-up">University of Palermo</span>
+    <h1>
+      <span class="line"><span>We are</span></span>
+      <span class="line"><span><em>the Mediterranean</em></span></span>
+      <span class="line"><span>that learns.</span></span>
+    </h1>
+    <p class="hero-lead fade-up d1">A large, public, multidisciplinary university at the heart of the Mediterranean since <strong>1806</strong>. We educate, we research and we give knowledge back to our region and to Europe: <strong>education, research and third mission</strong> in a single identity.</p>
+    <div class="hero-ctas fade-up d2">
+      <a class="btn btn-primary" href="#about">Discover who we are <svg><use href="#arrow"/></svg></a>
+      <a class="btn btn-ghost" href="#contact">Partner with us</a>
+    </div>
+
+    <div class="hero-stats fade-up d3" role="list">
+      <div role="listitem"><div class="stat-num" data-count="1806" data-plain>1806</div><div class="stat-label">Founded</div></div>
+      <div role="listitem"><div class="stat-num"><span data-count="44000">44,000</span><sup>+</sup></div><div class="stat-label">Students</div></div>
+      <div role="listitem"><div class="stat-num" data-count="16">16</div><div class="stat-label">Departments</div></div>
+      <div role="listitem"><div class="stat-num"><span data-count="130">130</span><sup>+</sup></div><div class="stat-label">Degree programmes</div></div>
+      <div role="listitem"><div class="stat-num" data-count="4">4</div><div class="stat-label">Campuses in Sicily</div></div>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"></div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Biodiversity</span><span>Climate</span><span>Circular economy</span><span>One Health</span><span>Precision medicine</span><span>Artificial intelligence</span><span>Quantum technologies</span><span>Energy</span><span>Cultural heritage</span><span>Euro‑Mediterranean cooperation</span>
+    <span>Biodiversity</span><span>Climate</span><span>Circular economy</span><span>One Health</span><span>Precision medicine</span><span>Artificial intelligence</span><span>Quantum technologies</span><span>Energy</span><span>Cultural heritage</span><span>Euro‑Mediterranean cooperation</span>
+  </div>
+</div>
+
+<!-- ===== CHI SIAMO / MANIFESTO ===== -->
+<section class="section manifesto" id="about">
+  <div class="wrap">
+    <div class="section-num reveal"><b style="background:var(--ink);color:var(--tufo)">✦</b> About us</div>
+    <p class="manifesto-quote reveal">We are a university that looks at the world from an island at the centre of the Mediterranean. Here the challenges of environment, health, technology and coexistence between peoples <em>are not abstractions</em>: they are our <span class="hl">everyday laboratory</span>.</p>
+
+    <div class="pillars stagger">
+      <a class="pillar didattica reveal" href="#education" style="--i:0">
+        <span class="pillar-idx">01 / Education</span>
+        <svg class="pillar-icon" viewBox="0 0 88 88" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="M44 16 6 34l38 18 38-18z"/><path d="M20 41v18c0 6 11 12 24 12s24-6 24-12V41"/><path d="M82 34v22"/></g></svg>
+        <h3>Education</h3>
+        <p>More than 130 degree programmes, PhDs and international tracks taught in English. Learning that opens up the world.</p>
+        <span class="pillar-go">Explore <svg><use href="#arrow"/></svg></span>
+      </a>
+      <a class="pillar ricerca reveal" href="#research" style="--i:1">
+        <span class="pillar-idx">02 / Research</span>
+        <svg class="pillar-icon" viewBox="0 0 88 88" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="3"><circle cx="44" cy="44" r="10"/><ellipse cx="44" cy="44" rx="36" ry="14"/><ellipse cx="44" cy="44" rx="36" ry="14" transform="rotate(60 44 44)"/><ellipse cx="44" cy="44" rx="36" ry="14" transform="rotate(120 44 44)"/></g></svg>
+        <h3>Research</h3>
+        <p>Twelve major areas, from quantum physics to marine biodiversity, from AI to the humanities.</p>
+        <span class="pillar-go">Explore <svg><use href="#arrow"/></svg></span>
+      </a>
+      <a class="pillar terza reveal" href="#third-mission" style="--i:2">
+        <span class="pillar-idx">03 / Third Mission</span>
+        <svg class="pillar-icon" viewBox="0 0 88 88" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><circle cx="44" cy="44" r="8"/><circle cx="16" cy="20" r="6"/><circle cx="72" cy="20" r="6"/><circle cx="16" cy="68" r="6"/><circle cx="72" cy="68" r="6"/><path d="M21 24l17 14M67 24 50 38M21 64l17-14M67 64 50 50"/></g></svg>
+        <h3>Third Mission</h3>
+        <p>European projects, technology transfer, living labs and social impact: knowledge flows back to society.</p>
+        <span class="pillar-go">Explore <svg><use href="#arrow"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== NUMBERS AT A GLANCE ===== -->
+<section class="section numeri-sec" id="numbers" aria-labelledby="numeri-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-num reveal"><b>#</b> UniPa in numbers</div>
+        <h2 class="reveal" id="numeri-title">Three worlds, <em>at a glance</em></h2>
+      </div>
+      <p class="section-intro reveal">Education, research and third mission summed up in their key figures.</p>
+    </div>
+
+    <div class="num-grid">
+      <article class="num-col did reveal" style="--i:0">
+        <header><span class="num-idx">01</span><h3>Education</h3></header>
+        <dl>
+          <div><dt><span data-count="44000">44,000</span><i>+</i></dt><dd>enrolled students</dd></div>
+          <div><dt><span data-count="130">130</span><i>+</i></dt><dd>bachelor’s, master’s and single‑cycle degree programmes</dd></div>
+          <div><dt data-count="21">21</dt><dd>programmes and curricula taught entirely in English</dd></div>
+          <div><dt data-count="9">9</dt><dd>European universities in the FORTHEM alliance</dd></div>
+          <div><dt data-count="4">4</dt><dd>campuses: Palermo, Agrigento, Caltanissetta, Trapani</dd></div>
+        </dl>
+      </article>
+
+      <article class="num-col ric reveal" style="--i:1">
+        <header><span class="num-idx">02</span><h3>Research</h3></header>
+        <dl>
+          <div><dt data-count="16">16</dt><dd>departments</dd></div>
+          <div><dt data-count="12">12</dt><dd>major research areas, from life sciences to the humanities</dd></div>
+          <div><dt data-count="17">17</dt><dd>NRRP (PNRR) projects: 3 national centres, 5 extended partnerships, 6 research infrastructures, 1 innovation ecosystem</dd></div>
+          <div><dt><span data-count="2800">2,800</span><i>+</i></dt><dd>publications from the STEBICEF Department alone</dd></div>
+          <div><dt><span data-count="160">160</span><i>+</i></dt><dd>research projects from the STEBICEF Department alone</dd></div>
+        </dl>
+      </article>
+
+      <article class="num-col tm reveal" style="--i:2">
+        <header><span class="num-idx">03</span><h3>Third Mission</h3></header>
+        <dl>
+          <div><dt data-count="29">29</dt><dd>European and international projects mapped</dd></div>
+          <div><dt data-count="8">8</dt><dd>competence clusters for Horizon Europe consortia</dd></div>
+          <div><dt data-count="12">12</dt><dd>roles UniPa can take on in a consortium</dd></div>
+          <div><dt><span data-count="30">30</span><i>+</i></dt><dd>patents and 3 spin‑offs from the STEBICEF Department alone</dd></div>
+          <div><dt data-count="1">1</dt><dd>national partnership led by UniPa: HEAL ITALIA, precision medicine</dd></div>
+        </dl>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="section didattica-sec" id="education">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-num reveal"><b>01</b> Education</div>
+        <h2 class="reveal">Educating <em>global citizens</em></h2>
+      </div>
+      <p class="section-intro reveal">One of Italy’s <strong>11 mega‑universities</strong>: a broad range of programmes covering every major field of knowledge, rooted in Sicily and open to international experience.</p>
+    </div>
+
+    <div class="did-grid">
+      <article class="did-card did-big reveal">
+        <span class="eyebrow">Programmes</span>
+        <div class="big-num"><span data-count="130">130</span>+</div>
+        <h3>degree programmes across every field of knowledge</h3>
+        <p>From life sciences to engineering, from medicine to architecture, from law to economics, all the way to the humanities and cultural heritage.</p>
+        <div class="levels">
+          <span>Bachelor’s</span><span>Master’s</span><span>Single‑cycle</span><span>PhD programmes</span><span>Professional masters</span><span>Specialisation schools</span>
+        </div>
+      </article>
+
+      <article class="did-card reveal">
+        <div class="intl">
+          <svg class="intl-globe" viewBox="0 0 120 120" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="60" cy="60" r="40"/>
+              <ellipse cx="60" cy="60" rx="16" ry="40"/>
+              <path d="M20 60h80M26 40h68M26 80h68"/>
+              <g class="orbit"><ellipse cx="60" cy="60" rx="56" ry="20" stroke-dasharray="3 5" transform="rotate(-20 60 60)"/><circle cx="112" cy="46" r="5" fill="currentColor"/></g>
+            </g>
+          </svg>
+          <div>
+            <h3>International experience</h3>
+            <p>Mobility as a natural part of every study path.</p>
+          </div>
+        </div>
+        <ul class="intl-list">
+          <li><span><b>21 initiatives</b> including programmes and curricula taught entirely in English</span></li>
+          <li><span>Incoming and outgoing <b>Erasmus+</b> mobility and agreements with universities worldwide</span></li>
+          <li><span>Member of the <b>FORTHEM</b> European University alliance</span></li>
+          <li><span>Double and joint degrees with partner universities</span></li>
+        </ul>
+      </article>
+
+      <article class="did-card reveal">
+        <div class="poli">
+          <div>
+            <h3>A university across the island</h3>
+            <p>The main campus in Palermo and the regional campuses of <b>Agrigento</b>, <b>Caltanissetta</b> and <b>Trapani</b> bring higher education to the whole of western Sicily.</p>
+          </div>
+          <svg class="sicily" viewBox="0 0 360 245" role="img" aria-label="Map of Sicily showing UniPa campuses: Palermo, Trapani, Agrigento, Caltanissetta">
+            <path class="island" d="M345,27 L304,33 L255,40 L215,58 L182,56 L150,63 L116,44 L90,35 L70,54 L53,38 L40,53 L31,58 L24,86 L39,105 L70,114 L88,124 L115,140 L138,152 L173,175 L205,180 L230,213 L265,223 L293,227 L309,179 L302,159 L289,124 L300,99 L309,80 L325,54 L335,37 Z"/>
+            <g class="pin main"><circle class="halo" cx="116" cy="50" r="7"/><circle class="core" cx="116" cy="50" r="5"/><text x="124" y="30" font-weight="700">PALERMO</text></g>
+            <g class="pin"><circle class="halo" cx="36" cy="62" r="5"/><circle class="core" cx="36" cy="62" r="4"/><text x="4" y="80">TRAPANI</text></g>
+            <g class="pin"><circle class="halo" cx="138" cy="146" r="5"/><circle class="core" cx="138" cy="146" r="4"/><text x="90" y="170">AGRIGENTO</text></g>
+            <g class="pin"><circle class="halo" cx="186" cy="124" r="5"/><circle class="core" cx="186" cy="124" r="4"/><text x="194" y="120">CALTANISSETTA</text></g>
+          </svg>
+        </div>
+      </article>
+    </div>
+
+    <div class="did-strip reveal">
+      <div><span class="k">Guidance</span><h4>Choosing with confidence</h4><p>Entry guidance, tutoring and support throughout the student journey.</p></div>
+      <div><span class="k">Innovation</span><h4>Teaching that evolves</h4><p>Research on teaching, neurodidactics, educational technologies and teacher education.</p></div>
+      <div><span class="k">PhD</span><h4>From degree to research</h4><p>A Doctoral School training researchers in the same fields in which the university competes in Europe.</p></div>
+      <div><span class="k">Careers</span><h4>School, university, work</h4><p>Internships, placement and graduate‑pathway studies to build employable skills.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RESEARCH ===== -->
+<section class="section ricerca-sec" id="research">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-num reveal"><b>02</b> Research</div>
+        <h2 class="reveal">Twelve ways of <em>looking ahead</em></h2>
+      </div>
+      <p class="section-intro reveal">Fundamental and applied research, technological development and knowledge transfer. Our position at the centre of the Mediterranean focuses our attention on the <strong>environmental, health, technological and socio‑economic</strong> challenges shared by Europe and its neighbouring countries.</p>
+    </div>
+
+    <div class="areas stagger" id="areas"></div>
+
+    <!-- Departments -->
+    <div class="depts" id="departments">
+      <div class="depts-head reveal">
+        <h3>Our departments, <em>up close</em></h3>
+        <p>A selection of our departments’ research lines. Choose a department to discover what its research groups work on.</p>
+      </div>
+      <div class="explorer reveal">
+        <div class="dept-tabs" role="tablist" aria-label="Departments" id="deptTabs"></div>
+        <div class="dept-panel" role="tabpanel" id="deptPanel" tabindex="0" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <div class="keywords reveal" aria-label="Keywords">
+      <span>Biodiversity</span><span>Marine &amp; Coastal Ecosystems</span><span>Climate Change</span><span>Nature‑based Solutions</span><span>Circular Economy</span><span>One Health</span><span>Precision Medicine</span><span>Biotechnology</span><span>Artificial Intelligence</span><span>Digital Transformation</span><span>Renewable Energy</span><span>Sustainable Infrastructure</span><span>Cultural Heritage</span><span>Social Innovation</span><span>Mediterranean Cooperation</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== THIRD MISSION ===== -->
+<section class="section terza-sec" id="third-mission">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-num reveal"><b>03</b> Third Mission</div>
+        <h2 class="reveal">Knowledge <em>that gives back</em></h2>
+      </div>
+      <p class="section-intro reveal">European projects, international networks, technology transfer, living labs and citizen engagement. We work with <strong>universities, research centres, public authorities, healthcare institutions, civil society and companies</strong>, including SMEs.</p>
+    </div>
+
+    <div class="tm-hero">
+      <div class="tm-count reveal">
+        <svg class="eu" viewBox="0 0 90 90" aria-hidden="true"><g fill="#f4ecdf"><circle cx="45" cy="9" r="3"/><circle cx="63" cy="14" r="3"/><circle cx="76" cy="27" r="3"/><circle cx="81" cy="45" r="3"/><circle cx="76" cy="63" r="3"/><circle cx="63" cy="76" r="3"/><circle cx="45" cy="81" r="3"/><circle cx="27" cy="76" r="3"/><circle cx="14" cy="63" r="3"/><circle cx="9" cy="45" r="3"/><circle cx="14" cy="27" r="3"/><circle cx="27" cy="14" r="3"/></g></svg>
+        <span class="eyebrow" style="color:var(--paper)">European and international projects</span>
+        <div>
+          <div class="big" data-count="29">29</div>
+          <p>projects mapped into <b>8 competence clusters</b>: from quantum technologies to protecting democracy.</p>
+        </div>
+      </div>
+      <div class="tm-roles reveal">
+        <h3>What we bring <em>to a consortium</em></h3>
+        <div class="roles">
+          <span>Scientific coordination</span><span>Pilot and demonstration activities</span><span>Living labs</span><span>Environmental and socio‑economic assessment</span><span>Data collection and modelling</span><span>Technological development</span><span>Stakeholder engagement</span><span>Capacity building and training</span><span>Communication and dissemination</span><span>Exploitation of results</span><span>Policy support</span><span>Multi‑partner governance</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="clusters stagger" id="clusters"></div>
+
+    <div class="showcase">
+      <div class="showcase-head reveal">
+        <h3>Flagship <em>projects</em></h3>
+        <p>A few initiatives that tell the story of who we are.</p>
+      </div>
+      <div class="showcase-track" id="showcase" tabindex="0" aria-label="Flagship projects, scroll horizontally"></div>
+    </div>
+
+    <div class="tm-pillars">
+      <div class="tm-pill reveal">
+        <span class="k">Technology transfer</span>
+        <h4>From research to business</h4>
+        <p>Patents, spin‑offs, business incubation and acceleration, innovation relays and economic development for emerging technologies.</p>
+      </div>
+      <div class="tm-pill reveal">
+        <span class="k">NRRP · PNRR</span>
+        <h4>Driving the recovery</h4>
+        <p><b>17 projects</b> across national centres, extended partnerships and research infrastructures under Italy’s National Recovery and Resilience Plan. UniPa leads <b>HEAL ITALIA</b>, the national precision‑medicine partnership.</p>
+        <a href="https://www.unipa.it/progetti/pnrr/" target="_blank" rel="noopener">UniPa NRRP projects (in Italian) ↗</a>
+      </div>
+      <div class="tm-pill reveal">
+        <span class="k">Public engagement</span>
+        <h4>A university open to the city</h4>
+        <p>The University Museum System, the Botanical Garden, living labs and civic participation campaigns take science beyond the classroom.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HERITAGE ===== -->
+<section class="heritage" aria-labelledby="heritage-title">
+  <div class="wrap">
+    <span class="eyebrow reveal">Roots</span>
+    <h2 class="reveal" id="heritage-title">Two centuries of history, <em>looking forward</em>.</h2>
+    <div class="timeline stagger">
+      <div class="tl reveal" style="--i:0"><div class="y">1779</div><h4>Royal Academy of Studies</h4><p>The institution from which the university would grow is founded in Palermo.</p></div>
+      <div class="tl reveal" style="--i:1"><div class="y">1806</div><h4>The University is born</h4><p>The Academy is raised to the rank of University.</p></div>
+      <div class="tl reveal" style="--i:2"><div class="y">1937</div><h4>The discovery of technetium</h4><p>In Palermo’s physics laboratories, Emilio Segrè and Carlo Perrier identify the first artificially produced element.</p></div>
+      <div class="tl reveal" style="--i:3"><div class="y">Today</div><h4>Palazzo Steri and beyond</h4><p>From the 14th‑century Palazzo Chiaramonte‑Steri, seat of the Rector’s office, a university reaching out to Europe and the Mediterranean.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta" id="contact">
+  <svg class="cta-star" viewBox="-50 -50 100 100" aria-hidden="true" color="#0d1a2b"><use href="#star8" x="-50" y="-50" width="100" height="100"/></svg>
+  <div class="wrap cta-inner">
+    <h2 class="reveal">Let’s build the next project <em>together</em>.</h2>
+    <div class="cta-links reveal">
+      <a href="https://www.unipa.it/" target="_blank" rel="noopener">University website <small>unipa.it ↗</small></a>
+      <a href="https://guidastudente.unipa.it/" target="_blank" rel="noopener">Student guide <small>guidastudente.unipa.it ↗</small></a>
+      <a href="https://www.unipa.it/progetti/pnrr/" target="_blank" rel="noopener">NRRP projects <small>unipa.it/progetti/pnrr ↗</small></a>
+      <a href="https://www.unipa.it/dipartimenti/matematicaeinformatica/ricerca/aree.html" target="_blank" rel="noopener">DMI research areas <small>detailed example ↗</small></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <a class="brand" href="#top"><img class="brand-logo" src="../assets/logo-unipa-white.png" alt="Università degli Studi di Palermo" width="219" height="89"></a>
+    <p>University of Palermo · Piazza Marina 61, 90133 Palermo, Italy</p>
+    <p><a href="#top">Back to top ↑</a></p>
+  </div>
+</footer>
+
+<dialog class="cluster-dialog" id="clusterDialog" aria-labelledby="dlgTitle">
+  <div class="dlg-head"><span class="emoji" id="dlgEmoji"></span><h3 id="dlgTitle"></h3><button class="dlg-close" id="dlgClose" aria-label="Close">×</button></div>
+  <div class="dlg-body" id="dlgBody"></div>
+</dialog>
+
+<script src="../js/data.en.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
