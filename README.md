@@ -30,3 +30,6 @@ poi apri http://localhost:8123
 ## Fonti dei contenuti
 Presentazione "Ricerca Dipartimenti UniPa", sintesi per PIF Horizon Europe, mappa delle competenze sui progetti europei, unipa.it.
 I numeri generali (studenti, corsi) vanno verificati e aggiornati periodicamente.
+
+## Foto
+Le foto in `assets/img/` provengono da Wikimedia Commons con licenze CC BY / CC BY-SA: i crediti sono nel piè di pagina del sito e in `assets/img/credits.json`. Per sostituirle con foto ufficiali dell'ateneo basta mantenere gli stessi nomi file (versioni 800 e 1600 px, formato .webp).
