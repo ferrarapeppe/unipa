@@ -211,3 +211,16 @@ window.CLUSTERS = [
     ]
   }
 ];
+
+/* Progetti in evidenza (fonte: mappa competenze e presentazione dipartimenti) */
+window.SHOWCASE = [
+  { tag: "Salute · PNRR", c: "terra", t: "HEAL ITALIA", d: "Alleanza nazionale per terapie innovative, ricerca di laboratorio avanzata e medicina di precisione. UniPa è capofila." },
+  { tag: "Quantum", c: "mare", t: "European Quantum Academy", d: "Quantum literacy, alta formazione e sviluppo di competenze per le tecnologie quantistiche." },
+  { tag: "Astrofisica", c: "mare", t: "Dark Universe", d: "Modelli di buchi neri e stelle di neutroni e dati dell’Osservatorio Rubin per indagare materia ed energia oscura." },
+  { tag: "Salute pubblica", c: "terra", t: "Malta & Sicily AMR Governance", d: "Governance transfrontaliera dell’antimicrobico‑resistenza e controllo delle infezioni tra Sicilia e Malta." },
+  { tag: "Clima e città", c: "ocra", t: "Trans‑urban Reforestation", d: "Riforestazione urbana e soluzioni basate sulla natura per l’adattamento climatico delle città." },
+  { tag: "Dati", c: "mare", t: "SoBigData", d: "Infrastruttura europea distribuita per big data e scienza sociale dei dati." },
+  { tag: "Agroalimentare", c: "ocra", t: "From Commodity to Values", d: "Valore e sostenibilità nella filiera dell’olio d’oliva, con il bio‑recupero degli oli alimentari." },
+  { tag: "Prevenzione", c: "terra", t: "DARE", d: "Digital lifelong prevention: prevenzione digitale lungo tutto l’arco della vita." },
+  { tag: "Oncologia", c: "terra", t: "Biopsia liquida ed epatocarcinoma", d: "Un nuovo paradigma post‑genomico per la diagnosi del tumore del fegato." }
+];

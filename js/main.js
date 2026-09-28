@@ -76,6 +76,16 @@
   $("#dlgClose").addEventListener("click", () => dlg.close());
   dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
 
+
+  /* ---------- Progetti in evidenza ---------- */
+  $("#showcase").innerHTML = window.SHOWCASE.map((p, i) => `
+    <article class="show-card" style="--c: var(--${p.c})">
+      <span class="show-n">${String(i + 1).padStart(2, "0")}</span>
+      <span class="show-tag">${esc(p.tag)}</span>
+      <h4>${esc(p.t)}</h4>
+      <p>${esc(p.d)}</p>
+    </article>`).join("");
+
   /* ---------- Header e navigazione ---------- */
   const header = $(".site-header"), toggle = $(".nav-toggle");
   const onScroll = () => header.classList.toggle("scrolled", window.scrollY > 40);
@@ -96,7 +106,7 @@
       if (en.isIntersecting) links.forEach(l => l.classList.toggle("active", l.getAttribute("href") === "#" + en.target.id));
     });
   }, { rootMargin: "-45% 0px -50% 0px" });
-  ["chi-siamo", "didattica", "ricerca", "terza-missione", "contatti"].forEach(id => spy.observe(document.getElementById(id)));
+  ["chi-siamo", "numeri", "didattica", "ricerca", "terza-missione", "contatti"].forEach(id => spy.observe(document.getElementById(id)));
 
   /* ---------- Reveal + contatori ---------- */
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
